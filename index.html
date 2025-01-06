@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bilal's Protfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon-bilal.png" type="image/x-icon" />
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- #MAIN -->
+
+  <main>
+    <!-- #SIDEBAR -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img class="profile-pic" src="./assets/images/bilal-profile.png" alt="Bilal Ahmed" width="70" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Bilal Ahmed">Bilal Ahmed</h1>
+
+          <p class="title">Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:bilalahmedawan059@gmail.com" class="contact-link">bilalahmedawan059@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+923495101379" class="contact-link">+92 349 5101379</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-03-05">march 05, 2003</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Islamabad, Pakistan</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/Bilalchanger49" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/bilal-ahmed-a72560229/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/bilalahmed0594/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- #main-content -->
+
+    <div class="main-content">
+      <!-- #NAVBAR -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- #ABOUT -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+
+            I'm a Laravel Web Developer and Software Engineer from Pakistan, dedicated to crafting user-focused web
+            applications and visually stunning website designs. I specialize in building scalable and efficient digital
+            solutions. With a strong focus on blending functionality,
+          </p>
+
+          <p>
+            I strive to deliver seamless experiences that meet both user and
+            business needs. Whether it's developing complex systems or designing intuitive interfaces, I am passionate
+            about turning ideas into impactful solutions.
+          </p>
+        </section>
+
+        <!-- service -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a
+                  professional level.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  I like to develop high-quality web sites in a web
+                  development team environment.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum
+                  dolor sit amet, ullamcous cididt consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels
+                  dolore magnarels alia.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
+          - My Certificates
+        -->
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Certificates</h3>
+          <div class="clients-list-container">
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <p>Linux Commands and Shell Scripting<br /> (IBM) Coursera</p>
+                <br />
+                <a href="https://coursera.org/share/b79f981ae22d922f904c30d12a80518a">
+                  <img src="./assets/images/certificates/Coursera Linux Commands.PNG" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <p>Advanced React<br /> (Meta) Coursera</p>
+                <br />
+                <a href="https://coursera.org/share/33cda3ba4fb501b86dd3d47e82bde19c">
+                  <img src="./assets/images/certificates/Coursera Advanced React.PNG" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <p>Capstone (React App)<br /> (Meta) Coursera</p>
+                <br />
+                <a href="https://coursera.org/share/060f17d11f7e8213507c1b9d98df0e03">
+                  <img src="./assets/images/certificates/Coursera Capstone (React App).PNG" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <p>Game Design and Development 1: 2D Shooter<br /> Coursera</p>
+                <br />
+                <a href="https://coursera.org/share/429393600c20c93203f1846fe959a99b">
+                  <img src="./assets/images/certificates/Coursera 2D shooter.PNG" alt="client logo" />
+                </a>
+              </li>
+
+
+              <li class="clients-item">
+                <p>How to Crop and Resize in Adobe Photoshop <br /> Coursera</p>
+                <br />
+                <a href="https://coursera.org/share/427ca99ca8d16c30d0adfaa59e306162">
+                  <img src="./assets/images/certificates/Coursera  Adobe Photoshop.PNG" alt="client logo" />
+                </a>
+              </li>
+
+
+              <li class="clients-item">
+                <p>Management Blueprint with ClickUp<br /> Coursera</p>
+                <br />
+                <a href="https://coursera.org/share/136825794625e1600be77cf519aa3aaf">
+                  <img src="./assets/images/certificates/Coursera Programme Management Blueprint.PNG"
+                    alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <p>Tables and Charts in Microsoft Excel<br /> Coursera</p>
+                <br />
+                <a href="https://coursera.org/share/a873f923c40d118c02e124a31922e2b3">
+                  <img src="./assets/images/certificates/Coursera Microsoft Excel.PNG" alt="client logo" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+
+      <!-- #RESUME -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- Download Button Section -->
+
+        <!-- Trigger Easy Download: onclick="window.location.href='https://drive.google.com/uc?export=download&id=1tKpm8IOlRSLQODSGPAmuAweRhz6zU7St'" -->
+
+        <section>
+          <button
+            onclick="window.location.href='https://drive.google.com/file/d/15wA92EH9OtCOg0GtfN3tOItnW6oZxrSF/view?usp=sharing'"
+            class="download-btn">
+            Download CV
+          </button>
+        </section>
+        <br />
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Riphah International University I-14 - Islamabad
+              </h4>
+
+              <span>2021 - Present</span>
+
+              <p class="timeline-text">
+                I am studing in last semester of my Software engineering Degree.
+                Also, i have learned aboud Project management, UI designing, Web Development
+                and etc.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Islamabad Model College For Boys F-10/4 - Islamabad</h4>
+
+              <span>2019 - 2021</span>
+
+              <p class="timeline-text">
+                I Have studied FSC in my College IMCB F-10/4. I have earned some knowledge from the foundation
+                for engineering.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Army public School And College EME Campus - Islamabad
+              </h4>
+
+              <span>2008 - 2019</span>
+
+              <p class="timeline-text">
+                I have studied my school Education from APS EME campus. their i make my foundation and interest in the
+                software engineering field. As i have studied Computer Science in my matric.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Project Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Course Web App</h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                Designed a Laravel-based course management platform featuring user authentication, payment integration,
+                and course tracking functionalities.
+                <a href="#">Laravel</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Gaza Web App</h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                Built a Laravel-based web application with secure login, managing orphans
+                and payment gateway integration for people of Gaza. <a href="#">Laravel</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">School Management System</h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                Created a Laravel school management system with features for managing students, teachers, classes, and
+                attendance. <a href="#">Laravel</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Image Compressor</h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                Developed a Laravel application to compress images while maintaining quality, with an easy-to-use
+                interface. <a href="#">Laravel</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Error Tracker</h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                Built a Laravel-based error tracking system to monitor application issues with detailed logging and
+                notifications. <a href="#">Laravel</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">News App</h4>
+              <span>2023</span>
+              <p class="timeline-text">
+                Developed a news application using React to fetch and display real-time news with search and category
+                filters. <a href="#">React</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Text Counter and Editor</h4>
+              <span>2023</span>
+              <p class="timeline-text">
+                Designed a React-based text utility app with features like word/character counting and text formatting.
+                <a href="#">React</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bilal Construction</h4>
+              <span>2022</span>
+              <p class="timeline-text">
+                Built a static website for a construction company using HTML CSS JS, showcasing services, ongoing projects,
+                and contact details.<a href="#">HTML CSS JS</a>
+              </p>
+            </li>
+          </ol>
+
+
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li> -->
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/school management system.JPG" alt="metaspark" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">School Management System</h3>
+
+                <p class="project-category">Laravel Framework</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bilal_cunstruction.JPG" alt="metaspark" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Bilal Contruction</h3>
+
+                <p class="project-category">Web Design</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gaza app.PNG" alt="metaspark" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Gaza Web app</h3>
+
+                <p class="project-category">web design</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/TextPlayer.JPG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Text Counter And Editor</h3>
+
+                <p class="project-category">React JS</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/NewsApp.JPG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">News App</h3>
+
+                <p class="project-category">React Js</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course app.PNG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Course App</h3>
+
+                <p class="project-category">Laravel Framework</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/error trackor.PNG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Error trackor</h3>
+
+                <p class="project-category">Laravel Framework</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/image compresor and video downloader.PNG" alt="arrival" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Image Compressor</h3>
+
+                <p class="project-category">Laravel Framework</p>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+
+      <!-- #CONTACT -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <h3 class="h3 form-title">My Location</h3>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d15801.948920410383!2d72.93445008328905!3d33.63252414347149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d33.6357309!2d72.9372329!4m3!3m2!1d33.635657699999996!2d72.9371833!5e0!3m2!1sen!2s!4v1736065577089!5m2!1sen!2s"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
